@@ -1,9 +1,9 @@
-#include "sorgt.h"
+#include "sort.h"
 /**
- * insergtion_sorgt_list - Sorgts a doubly linked list using the Insergtion sorgt.
+ * insertion_sort_list - Sorts a doubly linked list using the Insertion sort.
  * @list: Linked List.
  */
-void insergtion_sorgt_list(listint_t **list)
+void insertion_sort_list(listint_t **list)
 {
 	listint_t *node, *swap, *last;
 
